@@ -1,0 +1,117 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #101111;
+    background-size: 180vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid #ffb8d6;
+    border-collapse: collapse;
+    color: #83c6f8;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px #ffb8d6;
+    color: white;
+  }
+  
+  .tabelaJogadores button {
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    border-bottom: 2px solid #ed287c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 90px;
+  }
+  
+  .tabelaJogadores button:hover {
+    border-radius: 90px;
+    background: rgb(142, 14, 68);
+    background: linear-gradient(
+      0deg,
+      rgba(142, 14, 68, 1) 0%,
+      rgba(237, 40, 124, 1) 100%
+    );
+  }
+  
+  .adicionais input {
+    background: transparent;
+    color: #ffffff;
+    margin: 4px;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid #239df7;
+    border-radius: 90px;
+    height: 25px;
+    text-align: center;
+  }
+  
+  .adicionais button:nth-child(1) {
+    margin-top: 30px;
+  }
+  
+  .adicionais button {
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    border-bottom: 2px solid #239df7;
+    margin-top: 20px;
+    border-radius: 90px;
+  }
+  
+  .adicionais button:hover {
+    border-radius: 90px;
+    background: rgb(35, 157, 247);
+    background: linear-gradient(
+      0deg,
+      rgba(35, 157, 247, 1) 0%,
+      rgba(131, 198, 248, 1) 100%
+    );
+  }
+  
+  .png {
+    width: 70vh;
+  }
+  
